@@ -13,6 +13,7 @@ export default function App (){
   return (
     <main className= "counter">
       <h1>How many times will Bob say "state" in this section ?</h1>
+      
 
       <div className="count">
         <button classsName="minus" onClick={sub} aria-label="Decrease count">-</button>
@@ -20,9 +21,6 @@ export default function App (){
         <h2 className="count">{count}</h2>
 
         <button className="plus" onClick={add} aria-label="Increase count">+</button>
-
-
-
       </div>
 
 
